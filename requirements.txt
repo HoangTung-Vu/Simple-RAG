@@ -107,7 +107,6 @@ langchain-core==0.3.24
 langchain-google-genai==2.0.6
 langchain-text-splitters==0.3.2
 langsmith==0.2.3
-language-selector==0.1
 launchpadlib==1.11.0
 lazr.restfulclient==0.14.6
 lazr.uri==1.0.6
