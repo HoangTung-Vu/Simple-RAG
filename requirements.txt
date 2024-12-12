@@ -174,7 +174,6 @@ prompt-toolkit==3.0.43
 propcache==0.2.0
 proto-plus==1.25.0
 protobuf==5.29.1
-proton-core==0.3.3
 proton-keyring-linux==0.1.0
 proton-vpn-api-core==0.36.6
 proton-vpn-gtk-app==4.7.4
