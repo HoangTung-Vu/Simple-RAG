@@ -122,7 +122,6 @@ mdurl==0.1.2
 mmh3==5.0.1
 monotonic==1.6
 more-itertools==10.2.0
-mpmath==0.0.0
 multidict==6.1.0
 mypy-extensions==1.0.0
 nest-asyncio==1.5.4
