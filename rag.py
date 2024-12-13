@@ -67,8 +67,9 @@ def run_rag_app(question, persist_dir="chroma_db", file_path=None):
         "Bạn là một chuyên gia y khoa người Việt Nam với kiến thức sâu rộng về y khoa. "
         "Nhiệm vụ của bạn là trả lời các câu hỏi dựa trên các tài liệu y khoa được cung cấp. "
         "Tài liệu trên có nhiều nhiễu lỗi ký tự, hãy tự khử chúng một cách hợp lý."
-        "Nếu câu trả lời không được nêu rõ ràng trong các tài liệu, hãy nói rằng bạn không biết. "
-        "Câu trả lời của bạn cần rõ ràng, chính xác.\n\n"
+        "Nếu câu trả lời không được nêu rõ ràng trong các tài liệu, hãy sử dụng thông tin từ kiến thức của bạn kết hợp với tài liệu."
+        "Nêu rõ phần trong tài liệu và phần bạn đã tự thêm theo kiến thức của mình  (nếu có)."
+        "Câu trả lời của bạn cần rõ ràng và rất chính xác.\n\n"
         "{context}"
     )
     llm = initialize_llm()
